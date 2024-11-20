@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const TShirts = async () => {
   // Fetch data from your API
-  const res = await fetch('http://localhost:3000/api/product');
+  const res = await fetch('https://s-kart.vercel.app/api/product');
   const data = await res.json();
 
   // Use the filter method tyo get all items with the category 'tshirts'
