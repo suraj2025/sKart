@@ -1,8 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+const getBaseUrl = () => {
+  if (process.env.NODE_ENV === 'development') {
+    return 'http://localhost:3000'; // Replace with the local URL you use
+  }
+
+  return process.env.NEXT_PUBLIC_BASE_URL || 'https://your-app-name.vercel.app'; // Replace with your production URL
+};
 const zipperHoodies = async () => {
-  const res = await fetch('https://s-kart.vercel.app/api/product');
+  const baseUrl = getBaseUrl();
+  const res = await fetch(`${baseUrl}/api/product`);
   const data = await res.json();
 
   // Use the filter method tyo get all items with the category 'tshirts'
