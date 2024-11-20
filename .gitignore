@@ -12,7 +12,7 @@
 
 # testing
 /coverage
-/package.json
+
 # next.js
 /.next/
 /out/
