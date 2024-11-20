@@ -7,7 +7,7 @@ import { StarIcon, HeartIcon, ShareIcon, ShoppingBagIcon, ChevronDownIcon } from
 import Image from 'next/image';
 export default async function ProductPage({params}){
     const id = (await params).id;
-    const res = await fetch(`http://localhost:3000/api/product/${id}`);
+    const res = await fetch(`https://s-kart.vercel.app/api/product/${id}`);
     const data = await res.json();
 
     if (!data) return (<div className="flex flex-col items-center justify-center h-screen bg-black">
