@@ -83,7 +83,7 @@ export default function Navbar() {
                         <a className='text-yellow-300 flex justify-center cursor-pointer rounded-2xl hover:bg-gray-800 py-1 font-bold font-mono' href="/hoodies">Hoodies</a>
                         <a className='text-yellow-300 flex justify-center cursor-pointer rounded-2xl hover:bg-gray-800 py-1 font-bold font-mono' href="/sweatshirts">Sweatshirts</a>
                         <a className='text-yellow-300 flex justify-center cursor-pointer rounded-2xl hover:bg-gray-800 py-1 font-bold font-mono' href="/mugs">Mugs</a>
-                        <a className='text-yellow-300 flex justify-center cursor-pointer rounded-2xl hover:bg-gray-800 py-1 font-bold font-mono' href="/xipperhoodies">Zipper Hoodies</a>
+                        <a className='text-yellow-300 flex justify-center cursor-pointer rounded-2xl hover:bg-gray-800 py-1 font-bold font-mono' href="/zipperhoodies">Zipper Hoodies</a>
                         <a className='text-yellow-300 flex justify-center cursor-pointer rounded-2xl hover:bg-gray-800 py-1 font-bold font-mono' href="/mousepad">Mousepad</a>
                         <a className='text-yellow-300 flex justify-center cursor-pointer rounded-2xl hover:bg-gray-800 py-1 font-bold font-mono' href="/cap">Cap</a>
                     </div>
@@ -110,7 +110,7 @@ export default function Navbar() {
                                 <Image
                                     className="rounded-lg cursor-pointer"
                                     src="https://rukminim2.flixcart.com/image/612/612/kws5hu80/cap/z/a/y/free-unisex-black-woolen-winter-beanie-cap-with-scarf-for-men-original-imag9dw2xfkwcxzb.jpeg?q=70"
-                                    alt="Product Image"
+                                    alt="ProductImage"
                                     width={50}
                                     height={50}
                                     quality={100}

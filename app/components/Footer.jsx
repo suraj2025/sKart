@@ -9,7 +9,7 @@ const Footer = () => {
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a className="flex title-font font-medium items-center md:justify-start justify-center ">
-        <Image src={logo} width={100} height={10}/>
+        <Image src={logo} width={100} height={10} alt='logo'/>
       </a>
       <p className="mt-2 text-sm ">Air plant banjo lyft occupy retro adaptogen indego</p>
     </div>
