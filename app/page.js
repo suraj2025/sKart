@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Loader } from "rsuite";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
